@@ -1,0 +1,22 @@
+#Change request path
+#You can change XXXX to identify CS instance
+
+$pythonPath = "/PATH/request.py";
+
+on beacon_initial { 
+        $computer = beacon_info($1, "computer");
+        $external = beacon_info($1, "external");
+        $arch = beacon_info($1, "arch");
+        $internal = beacon_info($1, "internal");
+        $user = beacon_info($1, "user");
+        $beacon_text = "New Beacon from XXXXXXXX!
+User : $user
+Computer Name : $computer
+External IP : $external
+Internal IP : $internal
+Arch : $arch";
+	@command = @('python3',$pythonPath,$beacon_text);
+	exec(@command);
+}
+
+
