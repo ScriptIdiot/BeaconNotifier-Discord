@@ -14,6 +14,11 @@ Steps:
 ./agscript [C2 IP] [C2 Port] [user name] [C2 password] [path to cna]
 
 
+![image](https://user-images.githubusercontent.com/21979646/151166400-26fbd802-e8fa-4a72-afb6-b334fb935c83.png)
+
+
+
+
 Reference:
 
 https://download.cobaltstrike.com/aggressor-script/functions.html
