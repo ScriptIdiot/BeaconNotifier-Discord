@@ -12,3 +12,8 @@ Steps:
 5) Run the cna as following:
 
 ./agscript [C2 IP] [C2 Port] [user name] [C2 password] [path to cna]
+
+
+Reference:
+https://download.cobaltstrike.com/aggressor-script/functions.html
+https://stackoverflow.com/questions/62731561/discord-send-message-only-from-python-app-to-discord-channel-one-way-communic
