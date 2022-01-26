@@ -1,5 +1,5 @@
 # BeaconNotifier-Discord
-This is to notify you via Discord whenever there is a new beacon.
+Cobalt strike CNA script to notify you via Discord whenever there is a new beacon.
 
 Make sure you have python3 installed
 
