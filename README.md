@@ -15,5 +15,6 @@ Steps:
 
 
 Reference:
+
 https://download.cobaltstrike.com/aggressor-script/functions.html
 https://stackoverflow.com/questions/62731561/discord-send-message-only-from-python-app-to-discord-channel-one-way-communic
