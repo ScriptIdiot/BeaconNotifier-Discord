@@ -8,11 +8,13 @@ on beacon_initial {
         $external = beacon_info($1, "external");
         $internal = beacon_info($1, "internal");
         $user = beacon_info($1, "user");
-        $beacon_text = "New Beacon from XXXXXXXX!
+        $beacon_text = "===================================
+New Beacon from XXXXXXXX!
 User : $user
 Computer Name : $computer
 External IP : $external
 Internal IP : $internal
+===================================";
 	@command = @('python3',$pythonPath,$beacon_text);
 	exec(@command);
 }
