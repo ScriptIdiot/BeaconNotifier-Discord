@@ -1,5 +1,5 @@
 #Change request path
-#You can change XXXX to identify CS instance
+#You can change CS to identify difference CS instances
 
 $pythonPath = "/PATH/request.py";
 
@@ -9,7 +9,7 @@ on beacon_initial {
         $internal = beacon_info($1, "internal");
         $user = beacon_info($1, "user");
         $beacon_text = "================================
-New Beacon from XXXXXXXX!
+New Beacon from CS!
 User : $user
 Computer Name : $computer
 External IP : $external
