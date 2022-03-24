@@ -1,5 +1,5 @@
 #Change request path
-#You can change CS to identify difference CS instances
+#You can change CS to identify different CS instances
 
 $pythonPath = "/PATH/request.py";
 
